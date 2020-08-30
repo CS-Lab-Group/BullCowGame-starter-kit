@@ -131,7 +131,8 @@ FBullCowCount UBullCowCartridge::GetBullCows(const FString& Guess) const
 
         for (int32 HiddenIndex = 0; HiddenIndex < HiddenWord.Len(); HiddenIndex++)
         {
-            if (Guess[GuessIndex] == HiddenWord[HiddenIndex])
+            // GRANT GOLDSWORTH - changed == to != - 19:53 8/9/2020
+            if (Guess[GuessIndex] != HiddenWord[HiddenIndex])
             {
                 Count.Cows++;
                 break;
