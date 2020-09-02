@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70af03ae-bb6b-4daf-ab37-037efc04500e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Saved/Logs/BullCowGame.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Saved/Logs/BullCowGame.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BullCowCartridge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BullCowCartridge.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +43,17 @@
       <option name="presentableId" value="Default" />
       <updated>1598754617225</updated>
       <workItem from="1598754618827" duration="1505000" />
+      <workItem from="1598813786484" duration="534000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1598813811393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598813811393" />
   </component>
 </project>
