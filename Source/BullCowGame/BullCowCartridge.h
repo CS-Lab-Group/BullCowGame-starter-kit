@@ -6,6 +6,10 @@
 #include "Console/Cartridge.h"
 #include "BullCowCartridge.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FCowOrBull);
+
+
+
 struct FBullCowCount
 {
 	int32 Bulls = 0;
@@ -26,6 +30,9 @@ class BULLCOWGAME_API UBullCowCartridge : public UCartridge
 	bool IsIsogram(const FString& Word) const;
 	TArray<FString> GetValidWords(const TArray<FString>& WordList) const;
 	FBullCowCount GetBullCows(const FString& Guess) const;
+
+	UPROPERTY(bluePrintAssignable, Category = "EventDispacher")
+	FCowOrBull CowOrBullIncreased;
 
 	// Your declarations go below!
 	private:
