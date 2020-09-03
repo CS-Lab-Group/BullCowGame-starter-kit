@@ -126,6 +126,7 @@ FBullCowCount UBullCowCartridge::GetBullCows(const FString& Guess) const
         if (Guess[GuessIndex] == HiddenWord[GuessIndex])
         {
             Count.Bulls++;
+            CowOrBullIncreased.Broadcast();
             continue;
         }
 
@@ -135,6 +136,7 @@ FBullCowCount UBullCowCartridge::GetBullCows(const FString& Guess) const
             if (Guess[GuessIndex] != HiddenWord[HiddenIndex])
             {
                 Count.Cows++;
+                CowOrBullIncreased.Broadcast();
                 break;
             }
         }
