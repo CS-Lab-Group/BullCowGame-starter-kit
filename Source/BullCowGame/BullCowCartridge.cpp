@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "BullCowCartridge.h"
 #include "HiddenWordList.h"
+#include "Console/CowCloud.h"
+
 
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
@@ -37,11 +39,16 @@ void UBullCowCartridge::SetupGame()
     PrintLine(TEXT("You have %i Lives"), Lives);
     PrintLine(TEXT("Type in your guess and \npress enter to continue...")); // Prompt Player For Guess
 }
-
+ 
 void UBullCowCartridge::EndGame()
 {
     bGameOver = true;
     PrintLine(TEXT("\nPress enter to play again"));
+
+    // GameEnd.Broadcast();
+
+
+    
 }
 
 void UBullCowCartridge::ProcessGuess(const FString& Guess)
@@ -50,6 +57,7 @@ void UBullCowCartridge::ProcessGuess(const FString& Guess)
     {
         PrintLine(TEXT("You have won!"));
         EndGame();
+
         return;
     }
 
