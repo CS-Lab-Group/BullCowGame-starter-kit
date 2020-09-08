@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 09/03/20 14:03:37
+=======
+﻿Log file open, 09/08/20 10:11:43
+>>>>>>> rain
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +14,11 @@ LogInit: Display: Running engine for game: BullCowGame
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.222393
+=======
+LogStats: Stats thread started at 0.172264
+>>>>>>> rain
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -120,13 +128,21 @@ LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
+<<<<<<< HEAD
 LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1080
+=======
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+>>>>>>> rain
 LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
 LogInit: Command Line: 
+<<<<<<< HEAD
 LogInit: Base Directory: E:/Unreal/UE_4.22/Engine/Binaries/Win64/
+=======
+LogInit: Base Directory: D:/UE_4.22/Engine/Binaries/Win64/
+>>>>>>> rain
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -156,6 +172,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2020.09.03-21.03.38:407][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.09.03-21.03.38:407][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.09.03-21.03.38:407][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Grant/CS1C/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
@@ -1448,3 +1465,1115 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.03-21.38.11:048][194]LogModuleManager: Shutting down and abandoning module RSA (3)
 [2020.09.03-21.38.11:056][194]LogExit: Exiting.
 [2020.09.03-21.38.11:088][194]Log file closed, 09/03/20 14:38:11
+=======
+[2020.09.08-17.11.43:378][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.08-17.11.43:378][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.08-17.11.43:378][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-17.11.43:378][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.08-17.11.43:378][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.09.08-17.11.43:378][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-17.11.43:378][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-17.11.43:378][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.08-17.11.43:378][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.08-17.11.43:378][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.08-17.11.43:379][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-17.11.43:379][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-17.11.43:382][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.08-17.11.43:382][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.08-17.11.43:383][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.08-17.11.43:384][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.08-17.11.43:384][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.08-17.11.43:384][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.08-17.11.43:390][  0]LogHAL: Display: Platform has ~ 8 GB [8546185216 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.08-17.11.43:390][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.09.08-17.11.43:391][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.08-17.11.43:391][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.08-17.11.43:391][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.08-17.11.43:392][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.08-17.11.43:393][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-17.11.43:393][  0]LogInit: Computer: DESKTOP-JMC5V5T
+[2020.09.08-17.11.43:393][  0]LogInit: User: matth
+[2020.09.08-17.11.43:393][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.08-17.11.43:393][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.08-17.11.43:393][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.09.08-17.11.43:393][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.08-17.11.43:393][  0]LogMemory: Process Physical Memory: 96.72 MB used, 96.73 MB peak
+[2020.09.08-17.11.43:393][  0]LogMemory: Process Virtual Memory: 83.87 MB used, 83.88 MB peak
+[2020.09.08-17.11.43:393][  0]LogMemory: Physical Memory: 7107.72 MB used,  1042.55 MB free, 8150.28 MB total
+[2020.09.08-17.11.43:393][  0]LogMemory: Virtual Memory: 4610.74 MB used,  134213120.00 MB free, 134217728.00 MB total
+[2020.09.08-17.11.43:409][  0]LogInit: Using OS detected language (en-US).
+[2020.09.08-17.11.43:410][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.08-17.11.43:410][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.08-17.11.43:555][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.08-17.11.43:580][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.08-17.11.43:580][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.08-17.11.43:733][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.08-17.11.43:733][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.08-17.11.43:784][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.09.08-17.11.43:784][  0]LogD3D11RHI:       6052/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.08-17.11.43:786][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.08-17.11.43:786][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.08-17.11.43:786][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.08-17.11.43:793][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.08-17.11.43:793][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.08-17.11.43:793][  0]LogWindows: EnumDisplayDevices:
+[2020.09.08-17.11.43:794][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.09.08-17.11.43:794][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.08-17.11.43:794][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.08-17.11.43:795][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.08-17.11.43:795][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.08-17.11.43:795][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.09.08-17.11.43:795][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.09.08-17.11.43:795][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.09.08-17.11.43:795][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.09.08-17.11.43:831][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.08-17.11.43:835][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.08-17.11.43:836][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.08-17.11.43:836][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.08-17.11.43:844][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.08-17.11.44:269][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.09.08-17.11.44:281][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.09.08-17.11.44:293][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.09.08-17.11.44:305][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.09.08-17.11.44:317][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.09.08-17.11.44:329][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.09.08-17.11.44:341][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.08-17.11.44:353][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.09.08-17.11.44:359][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.09.08-17.11.44:428][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.09.08-17.11.44:430][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.09.08-17.11.44:475][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.09.08-17.11.44:475][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.09.08-17.11.44:496][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.09.08-17.11.44:496][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.09.08-17.11.44:507][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.09.08-17.11.44:519][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.08-17.11.44:530][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.09.08-17.11.44:542][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.09.08-17.11.44:580][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.09.08-17.11.44:580][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.09.08-17.11.44:580][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.08-17.11.44:589][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.08-17.11.44:634][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Intermediate/Shaders/WorkingDirectory/11360/).
+[2020.09.08-17.11.44:634][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/matth/AppData/Local/Temp/UnrealShaderWorkingDir/325E881C44620C8BE8636BA2807A86F1/'.
+[2020.09.08-17.11.44:636][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.08-17.11.44:636][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.08-17.11.44:636][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.08-17.11.45:132][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.08-17.11.45:184][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/matth/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.09.08-17.11.45:184][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/matth/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.09.08-17.11.45:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.08-17.11.45:184][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.08-17.11.45:185][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.08-17.11.45:185][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.08-17.11.45:195][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.08-17.11.45:196][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.08-17.11.45:196][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.08-17.11.45:208][  0]LogDerivedDataCache: Using Local data cache path C:/Users/matth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.08-17.11.45:208][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.08-17.11.45:208][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.08-17.11.45:228][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.09.08-17.11.45:229][  0]LogSlate: Using FreeType 2.6.0
+[2020.09.08-17.11.45:236][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.08-17.11.45:406][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
+[2020.09.08-17.11.45:724][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.08-17.11.46:146][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.08-17.11.46:146][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.08-17.11.46:146][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.08-17.11.46:146][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.08-17.11.46:146][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.08-17.11.46:156][  0]LogNetVersion: BullCowGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2070390679)
+[2020.09.08-17.11.46:647][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.047539 seconds
+[2020.09.08-17.11.46:654][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.09.08-17.11.46:654][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.09.08-17.11.46:654][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.08-17.11.51:437][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.08-17.11.51:460][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.08-17.11.51:879][  0]SourceControl: Source control is disabled
+[2020.09.08-17.11.51:879][  0]SourceControl: Source control is disabled
+[2020.09.08-17.11.51:903][  0]SourceControl: Source control is disabled
+[2020.09.08-17.11.51:911][  0]SourceControl: Source control is disabled
+[2020.09.08-17.11.52:350][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.08-17.11.52:694][  0]LogOcInput: OculusInput pre-init called
+[2020.09.08-17.11.53:489][  0]LogEngine: Initializing Engine...
+[2020.09.08-17.11.53:490][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.08-17.11.53:491][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.08-17.11.53:685][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.08-17.11.54:046][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.08-17.11.54:110][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.08-17.11.54:142][  0]LogInit: FAudioDevice initialized.
+[2020.09.08-17.11.54:142][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.08-17.11.54:221][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/matth/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.09.08-17.11.54:226][  0]LogInit: Texture streaming: Enabled
+[2020.09.08-17.11.54:384][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.08-17.11.54:805][  0]LogInit: Transaction tracking system initialized
+[2020.09.08-17.11.55:047][  0]BlueprintLog: New page: Editor Load
+[2020.09.08-17.11.55:521][  0]LocalizationService: Localization service is disabled
+[2020.09.08-17.11.56:579][  0]LogFileCache: Scanning file cache for directory 'D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Content/' took 0.01s
+[2020.09.08-17.11.56:579][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.08-17.11.56:579][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.08-17.11.58:442][  0]SourceControl: Source control is disabled
+[2020.09.08-17.11.58:442][  0]Cmd: MAP LOAD FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.08-17.11.58:443][  0]LightingResults: New page: Lighting Build
+[2020.09.08-17.11.58:509][  0]MapCheck: New page: Map Check
+[2020.09.08-17.11.58:509][  0]LightingResults: New page: Lighting Build
+[2020.09.08-17.11.58:527][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.09.08-17.11.59:303][  0]LogAIModule: Creating AISystem for world Level1
+[2020.09.08-17.11.59:386][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.08-17.11.59:408][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.09.08-17.11.59:408][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.08-17.11.59:408][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.088ms to complete.
+[2020.09.08-17.11.59:408][  0]LogFileHelpers: Loading map 'Level1' took 0.966
+[2020.09.08-17.11.59:558][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.11.59:565][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.11.59:571][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.11.59:578][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.11.59:593][  0]LogCollectionManager: Loaded 0 collections in 0.001498 seconds
+[2020.09.08-17.11.59:620][  0]LogFileCache: Scanning file cache for directory 'D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Collections/' took 0.01s
+[2020.09.08-17.11.59:620][  0]LogFileCache: Scanning file cache for directory 'D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Developers/matth/Collections/' took 0.00s
+[2020.09.08-17.11.59:620][  0]LogFileCache: Scanning file cache for directory 'D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Collections/' took 0.00s
+[2020.09.08-17.11.59:620][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.09.08-17.11.59:628][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2737 classes and 662 folders.
+[2020.09.08-17.11.59:655][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.08-17.11.59:679][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:692][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:711][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:719][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:780][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:799][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:810][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:821][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:851][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:864][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:881][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:894][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:902][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:914][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:925][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:936][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.11.59:953][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.12.00:031][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.12.00:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-17.12.00:783][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.08-17.12.00:815][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.09.08-17.12.00:844][  0]LogSlate: Took 0.006979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.08-17.12.00:853][  0]LogSlate: Took 0.007487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.08-17.12.00:862][  0]LogSlate: Took 0.005993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.08-17.12.00:918][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2020.09.08-17.12.01:018][  0]LogSlate: Took 0.013316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.08-17.12.01:195][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.08-17.12.01:195][  0]LogLoad: (Engine Initialization) Total time: 19.65 seconds
+[2020.09.08-17.12.01:195][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.08-17.12.01:278][  0]LogAssetRegistry: Asset discovery search completed in 15.8950 seconds
+[2020.09.08-17.12.01:281][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.09.08-17.12.01:281][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000108 seconds (updated 0 objects)
+[2020.09.08-17.12.01:282][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.08-17.12.57:051][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.12.57:254][641]Candidate modules for hot reload:
+[2020.09.08-17.12.57:254][641]  BullCowGame
+[2020.09.08-17.12.57:261][641]Launching UnrealBuildTool... [D:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BullCowGame,9974 Win64 Development -TargetType=Editor -Project="D:/githubRepo/cows and bulls/BullCowGame-starter-kit/BullCowGame.uproject" "D:/githubRepo/cows and bulls/BullCowGame-starter-kit/BullCowGame.uproject"  -IgnoreJunk]
+[2020.09.08-17.12.57:306][641]Warning: Starting HotReload took  0.2s.
+[2020.09.08-17.16.47:743][ 57]CompilerResultsLog: New page: Compilation - Sep 8, 2020, 3:16:47 AM
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\githubRepo\cows and bulls\BullCowGame-starter-kit).
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog: Creating makefile for BullCowGameEditor (ini files are newer than makefile)
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog: Parsing headers for BullCowGameEditor
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:   Running UnrealHeaderTool "D:\githubRepo\cows and bulls\BullCowGame-starter-kit\BullCowGame.uproject" "D:\githubRepo\cows and bulls\BullCowGame-starter-kit\Intermediate\Build\Win64\BullCowGameEditor\Development\BullCowGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog: Reflection code generated for BullCowGameEditor in 14.3757373 seconds
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog: Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:   [1/7] CowCloud.cpp
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:   [2/7] CowCloud.gen.cpp
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:   [3/7] BullCowCartridge.gen.cpp
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:   [4/7] BullCowCartridge.cpp
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:   [5/7] UE4Editor-BullCowGame-9974.lib
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:      Creating library D:\githubRepo\cows and bulls\BullCowGame-starter-kit\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame-9974.lib and object D:\githubRepo\cows and bulls\BullCowGame-starter-kit\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame-9974.exp
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:   [6/7] UE4Editor-BullCowGame-9974.dll
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:      Creating library D:\githubRepo\cows and bulls\BullCowGame-starter-kit\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame-9974.suppressed.lib and object D:\githubRepo\cows and bulls\BullCowGame-starter-kit\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame-9974.suppressed.exp
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog:   [7/7] BullCowGameEditor.target
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog: Total time in Parallel executor: 205.43 seconds
+[2020.09.08-17.16.47:779][ 57]CompilerResultsLog: Total execution time: 229.98 seconds
+[2020.09.08-17.16.47:790][ 57]LogMainFrame: MainFrame: Module compiling took 230.652 seconds
+[2020.09.08-17.16.47:825][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.09.08-17.16.47:868][ 57]LogClass: Could not find existing class BullCowCartridge in package /Script/BullCowGame for HotReload, assuming new class
+[2020.09.08-17.16.48:073][ 57]LogHotReload: Re-instancing BullCowCartridge after hot-reload.
+[2020.09.08-17.16.48:776][ 57]LogContentBrowser: Native class hierarchy updated for 'BullCowGame' in 0.0004 seconds. Added 5 classes and 3 folders.
+[2020.09.08-17.16.48:779][ 57]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.09.08-17.16.48:872][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.09.08-17.16.48:893][ 57]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2738 classes and 664 folders.
+[2020.09.08-17.16.49:007][ 57]Display: HotReload took 231.9s.
+[2020.09.08-17.17.58:305][347]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.08-17.17.58:419][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.17.58:448][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.08-17.17.58:448][347]PIE: New page: PIE session: Level1 (Sep 8, 2020, 3:17:58 AM)
+[2020.09.08-17.17.58:540][347]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.09.08-17.17.58:767][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.227318s)
+[2020.09.08-17.17.58:792][347]LogAIModule: Creating AISystem for world Level1
+[2020.09.08-17.17.58:810][347]LogPlayLevel: PIE: World Init took: (0.041474s)
+[2020.09.08-17.17.58:810][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.269438s)
+[2020.09.08-17.17.58:828][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.09.08-17.17.58:867][347]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.08-17.17.58:910][347]LogInit: FAudioDevice initialized.
+[2020.09.08-17.17.59:017][347]LogLoad: Game class is 'GameModeBase'
+[2020.09.08-17.17.59:195][347]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.08-10.17.59
+[2020.09.08-17.17.59:288][347]LogWorld: Bringing up level for play took: 0.096670
+[2020.09.08-17.17.59:500][347]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.09.08-17.17.59:566][347]LogCore: Error: Invalid input P=-1177011680836010656945586681136807936.000000 Y=0.000000 R=-0.003705 to FRotator::Quaternion - generated NaN output: X=inf Y=-nan(ind) Z=inf W=-nan(ind)
+[2020.09.08-17.17.59:670][347]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.727
+[2020.09.08-17.17.59:670][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.18.32:388][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.18.32:406][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.18.32:508][233]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.08-17.18.32:508][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.18.32:642][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.18.32:735][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.09.08-17.18.32:821][234]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.09.08-17.18.39:082][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.18.39:247][987]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.08-17.18.39:254][987]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.18.40:236][987]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.09.08-17.18.42:045][987]LogSlate: Took 0.009771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.08-17.18.43:950][129]LogSlate: Took 0.011979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.08-17.19.25:267][995]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.19.25:270][995]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.19.27:290][207]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Terminal.Terminal
+[2020.09.08-17.20.04:112][502]BlueprintLog: New page: Compile Terminal
+[2020.09.08-17.20.04:136][502]LogBlueprint: Error: [Compiler Terminal] This blueprint (self) is not a CowCloud, therefore ' Target ' must have a connection.
+[2020.09.08-17.20.04:142][502]LogBlueprint: Error: [Compiler Terminal] The type of  Object  is undetermined.  Connect something to  Cast To CowCloud  to imply a specific type.
+[2020.09.08-17.20.04:142][502]LogBlueprint: Error: [Compiler Terminal] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.09.08-17.20.04:372][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.09.08-17.20.04:377][502]LogBlueprint: Warning: [Compiler Terminal] [0502.83] Compile of Terminal failed. 3 Fatal Issue(s) 0 Warning(s) [in 264 ms] (/Game/Terminal.Terminal)
+[2020.09.08-17.20.09:312][ 85]BlueprintLog: New page: Compile Terminal
+[2020.09.08-17.20.09:314][ 85]LogBlueprint: Error: [Compiler Terminal] The type of  Object  is undetermined.  Connect something to  Cast To CowCloud  to imply a specific type.
+[2020.09.08-17.20.09:314][ 85]LogBlueprint: Error: [Compiler Terminal] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.09.08-17.20.09:439][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.09.08-17.20.09:443][ 85]LogBlueprint: Warning: [Compiler Terminal] [0507.89] Compile of Terminal failed. 2 Fatal Issue(s) 0 Warning(s) [in 131 ms] (/Game/Terminal.Terminal)
+[2020.09.08-17.20.20:856][407]BlueprintLog: New page: Compile Terminal
+[2020.09.08-17.20.20:858][407]LogBlueprint: Warning: [Compiler Terminal] 'Cow Cloud' does not inherit from 'Terminal' ( Cast To CowCloud  would always fail).
+[2020.09.08-17.20.20:993][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.09.08-17.20.21:002][407]LogBlueprint: Warning: [Compiler Terminal] [0519.45] Compile of Terminal successful, but with 1 Warning(s) [in 145 ms] (/Game/Terminal.Terminal)
+[2020.09.08-17.20.40:701][562]BlueprintLog: New page: Compile Terminal
+[2020.09.08-17.20.40:703][562]LogBlueprint: Error: [Compiler Terminal] The type of  Object  is undetermined.  Connect something to  Cast To CowCloud  to imply a specific type.
+[2020.09.08-17.20.40:703][562]LogBlueprint: Error: [Compiler Terminal] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2020.09.08-17.20.40:829][562]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.09.08-17.20.40:834][562]LogBlueprint: Warning: [Compiler Terminal] [0539.29] Compile of Terminal failed. 2 Fatal Issue(s) 0 Warning(s) [in 132 ms] (/Game/Terminal.Terminal)
+[2020.09.08-17.20.57:866][566]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.20.57:869][566]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.21.04:486][350]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/WinCow.WinCow
+[2020.09.08-17.21.36:907][118]LogSlate: Window 'WinCow' being destroyed
+[2020.09.08-17.21.36:910][118]LogSlate: Window 'WinCow' being destroyed
+[2020.09.08-17.21.38:114][256]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.21.54:794][171]BlueprintLog: New page: Compile CowCloud
+[2020.09.08-17.21.54:941][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.09.08-17.21.55:903][280]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.21.55:906][280]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.21.56:476][342]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.08-17.21.56:482][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.21.56:482][342]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.08-17.21.56:482][342]LogPlayLevel: [PlayLevel] Compiling WinCow before play...
+[2020.09.08-17.21.56:578][342]LogPlayLevel: [PlayLevel] Compiling Terminal before play...
+[2020.09.08-17.21.56:709][342]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.09.08-17.21.56:709][342]LogPlayLevel: PlayLevel: Blueprint regeneration took 226 ms (2 blueprints)
+[2020.09.08-17.21.56:709][342]PIE: New page: PIE session: Level1 (Sep 8, 2020, 3:21:56 AM)
+[2020.09.08-17.21.56:709][342]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.09.08-17.21.56:745][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035909s)
+[2020.09.08-17.21.56:746][342]LogAIModule: Creating AISystem for world Level1
+[2020.09.08-17.21.56:746][342]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2020.09.08-17.21.56:746][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.037155s)
+[2020.09.08-17.21.56:773][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.09.08-17.21.56:786][342]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.08-17.21.56:811][342]LogInit: FAudioDevice initialized.
+[2020.09.08-17.21.56:839][342]LogLoad: Game class is 'GameModeBase'
+[2020.09.08-17.21.56:843][342]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.08-10.21.56
+[2020.09.08-17.21.56:843][342]LogWorld: Bringing up level for play took: 0.003272
+[2020.09.08-17.21.56:860][342]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.917
+[2020.09.08-17.21.56:860][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.22.08:750][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.22.08:750][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.22.08:781][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.08-17.22.08:781][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.22.08:810][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.22.08:814][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.09.08-17.22.08:858][754]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.09.08-17.22.10:483][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.22.10:613][964]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.22.25:114][667]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.22.25:117][667]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.22.26:875][871]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Terminal.Terminal
+[2020.09.08-17.22.46:575][190]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.22.46:579][190]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.22.48:075][363]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/WinCow.WinCow
+[2020.09.08-17.22.52:589][872]LogSlate: Window 'WinCow' being destroyed
+[2020.09.08-17.22.52:592][872]LogSlate: Window 'WinCow' being destroyed
+[2020.09.08-17.22.55:824][253]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Terminal.Terminal
+[2020.09.08-17.22.58:927][586]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.22.58:930][586]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.22.59:864][691]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.23.14:077][360]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.08-17.23.14:084][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.23.14:084][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.08-17.23.14:084][360]PIE: New page: PIE session: Level1 (Sep 8, 2020, 3:23:14 AM)
+[2020.09.08-17.23.14:085][360]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.09.08-17.23.14:120][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035216s)
+[2020.09.08-17.23.14:121][360]LogAIModule: Creating AISystem for world Level1
+[2020.09.08-17.23.14:146][360]LogPlayLevel: PIE: World Init took: (0.025503s)
+[2020.09.08-17.23.14:146][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.060939s)
+[2020.09.08-17.23.14:178][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.09.08-17.23.14:188][360]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.08-17.23.14:211][360]LogInit: FAudioDevice initialized.
+[2020.09.08-17.23.14:243][360]LogLoad: Game class is 'GameModeBase'
+[2020.09.08-17.23.14:247][360]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.08-10.23.14
+[2020.09.08-17.23.14:247][360]LogWorld: Bringing up level for play took: 0.003670
+[2020.09.08-17.23.14:264][360]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.322
+[2020.09.08-17.23.14:265][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.23.15:257][474]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.23.15:259][474]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.23.20:246][ 66]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.23.20:246][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.23.20:274][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.08-17.23.20:274][ 66]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.23.20:304][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.23.20:308][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.09.08-17.23.20:355][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.09.08-17.23.21:398][187]LogEditorViewport: Clicking on Actor (context menu): CowCloud_C (CowCloud22)
+[2020.09.08-17.23.21:721][187]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.09.08-17.23.22:528][268]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.09.08-17.23.23:423][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.23.23:785][366]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.23.35:647][721]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.08-17.23.35:654][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.23.35:654][721]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.08-17.23.35:654][721]LogPlayLevel: [PlayLevel] Compiling CowCloud before play...
+[2020.09.08-17.23.35:834][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.09.08-17.23.35:834][721]LogPlayLevel: PlayLevel: Blueprint regeneration took 181 ms (1 blueprints)
+[2020.09.08-17.23.35:835][721]PIE: New page: PIE session: Level1 (Sep 8, 2020, 3:23:35 AM)
+[2020.09.08-17.23.35:835][721]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.09.08-17.23.35:872][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036553s)
+[2020.09.08-17.23.35:872][721]LogAIModule: Creating AISystem for world Level1
+[2020.09.08-17.23.35:872][721]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2020.09.08-17.23.35:872][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.037622s)
+[2020.09.08-17.23.35:898][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.09.08-17.23.35:909][721]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.08-17.23.35:929][721]LogInit: FAudioDevice initialized.
+[2020.09.08-17.23.35:963][721]LogLoad: Game class is 'GameModeBase'
+[2020.09.08-17.23.35:967][721]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.08-10.23.35
+[2020.09.08-17.23.35:968][721]LogWorld: Bringing up level for play took: 0.003642
+[2020.09.08-17.23.35:985][721]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.043
+[2020.09.08-17.23.35:986][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.23.42:114][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.23.42:114][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.23.42:144][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.08-17.23.42:145][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.23.42:176][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.23.42:179][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.09.08-17.23.42:229][398]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.09.08-17.23.43:681][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.23.43:763][582]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.23.43:766][582]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.23.49:680][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.23.49:867][298]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Terminal.Terminal
+[2020.09.08-17.23.58:194][766]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.23.58:197][766]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.24.08:540][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.24.17:069][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.24.17:598][ 21]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.24.33:845][927]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.24.33:848][927]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.24.36:305][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.24.37:376][343]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.24.41:883][849]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.24.41:886][849]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.24.42:831][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.24.42:993][975]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.24.44:846][166]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.24.44:849][166]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.24.45:400][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.24.45:475][235]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.08-17.24.45:481][235]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.24.45:482][235]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.08-17.24.45:482][235]LogPlayLevel: [PlayLevel] Compiling CowCloud before play...
+[2020.09.08-17.24.45:629][235]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.09.08-17.24.45:629][235]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (1 blueprints)
+[2020.09.08-17.24.45:629][235]PIE: New page: PIE session: Level1 (Sep 8, 2020, 3:24:45 AM)
+[2020.09.08-17.24.45:629][235]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.09.08-17.24.45:676][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047324s)
+[2020.09.08-17.24.45:677][235]LogAIModule: Creating AISystem for world Level1
+[2020.09.08-17.24.45:677][235]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2020.09.08-17.24.45:677][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.048367s)
+[2020.09.08-17.24.45:704][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.09.08-17.24.45:715][235]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.08-17.24.45:737][235]LogInit: FAudioDevice initialized.
+[2020.09.08-17.24.45:766][235]LogLoad: Game class is 'GameModeBase'
+[2020.09.08-17.24.45:769][235]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.08-10.24.45
+[2020.09.08-17.24.45:770][235]LogWorld: Bringing up level for play took: 0.003204
+[2020.09.08-17.24.45:786][235]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.157
+[2020.09.08-17.24.45:786][235]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.24.47:832][474]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.24.47:833][474]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.24.47:863][474]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.08-17.24.47:864][474]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.24.47:893][474]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.24.47:897][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.09.08-17.24.47:940][476]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.09.08-17.24.49:197][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.24.49:325][640]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.25.28:432][209]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.08-17.25.28:438][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.25.28:439][209]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.08-17.25.28:439][209]LogPlayLevel: [PlayLevel] Compiling CowCloud before play...
+[2020.09.08-17.25.28:611][209]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.09.08-17.25.28:611][209]LogPlayLevel: PlayLevel: Blueprint regeneration took 172 ms (1 blueprints)
+[2020.09.08-17.25.28:612][209]PIE: New page: PIE session: Level1 (Sep 8, 2020, 3:25:28 AM)
+[2020.09.08-17.25.28:612][209]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.09.08-17.25.28:650][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038280s)
+[2020.09.08-17.25.28:651][209]LogAIModule: Creating AISystem for world Level1
+[2020.09.08-17.25.28:651][209]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2020.09.08-17.25.28:651][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.039438s)
+[2020.09.08-17.25.28:678][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.09.08-17.25.28:690][209]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.08-17.25.28:710][209]LogInit: FAudioDevice initialized.
+[2020.09.08-17.25.28:741][209]LogLoad: Game class is 'GameModeBase'
+[2020.09.08-17.25.28:744][209]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.08-10.25.28
+[2020.09.08-17.25.28:745][209]LogWorld: Bringing up level for play took: 0.003362
+[2020.09.08-17.25.28:761][209]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.819
+[2020.09.08-17.25.28:762][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.25.30:252][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.25.35:308][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.25.35:308][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.25.35:337][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.08-17.25.35:338][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2020.09.08-17.25.35:367][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-17.25.35:371][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.09.08-17.25.35:418][981]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.09.08-17.25.37:287][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.25.44:977][117]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.25.44:980][117]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.25.47:933][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.25.48:080][467]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.25.51:016][777]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.25.51:019][777]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.25.51:918][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.25.52:071][896]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Terminal.Terminal
+[2020.09.08-17.26.44:617][140]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.26.44:620][140]LogSlate: Window 'Terminal' being destroyed
+[2020.09.08-17.26.45:221][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-17.26.45:399][227]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-17.27.17:389][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.09.08-17.27.18:044][263]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Level1_Auto1AFF91FD0434737C490BC2A8C191193ED.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
+[2020.09.08-17.27.18:073][263]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.715
+[2020.09.08-17.27.18:073][263]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.715
+[2020.09.08-17.27.18:074][263]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CowCloud] ([1] browsable assets)...
+[2020.09.08-17.27.18:128][263]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CowCloud.CowCloud]
+[2020.09.08-17.27.18:128][263]OBJ SavePackage: Finished generating thumbnails for package [/Game/CowCloud]
+[2020.09.08-17.27.18:128][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CowCloud" FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Autosaves/Game/CowCloud_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.09.08-17.27.18:235][263]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/CowCloud_Auto1EB144E094612CA76A426E9B76AFCB5CF.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Autosaves/Game/CowCloud_Auto1.uasset'
+[2020.09.08-17.27.18:236][263]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WinCow] ([1] browsable assets)...
+[2020.09.08-17.27.18:253][263]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/WinCow.WinCow]
+[2020.09.08-17.27.18:253][263]OBJ SavePackage: Finished generating thumbnails for package [/Game/WinCow]
+[2020.09.08-17.27.18:253][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WinCow" FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Autosaves/Game/WinCow_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.09.08-17.27.18:286][263]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/WinCow_Auto1B44FE9724F8F8496477C0893F89CFFFB.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Autosaves/Game/WinCow_Auto1.uasset'
+[2020.09.08-17.27.18:286][263]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Terminal] ([1] browsable assets)...
+[2020.09.08-17.27.18:303][263]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Terminal.Terminal]
+[2020.09.08-17.27.18:303][263]OBJ SavePackage: Finished generating thumbnails for package [/Game/Terminal]
+[2020.09.08-17.27.18:303][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Terminal" FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Autosaves/Game/Terminal_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.09.08-17.27.18:379][263]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Terminal_Auto1BA74EAF547056A2866A4C28E5439D426.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Autosaves/Game/Terminal_Auto1.uasset'
+[2020.09.08-17.27.18:380][263]LogFileHelpers: Auto-saving content packages took 0.305
+[2020.09.08-17.27.25:045][ 21]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.27.25:048][ 21]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-17.34.45:662][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.09.08-17.34.45:869][876]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.09.08-17.34.50:244][876]LogSlate: Window 'Save Content' being destroyed
+[2020.09.08-17.34.50:280][876]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.09.08-17.34.50:330][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CowCloud" FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset" SILENT=true
+[2020.09.08-17.34.51:120][876]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/CowCloudDB62578F49E354705BFA60B8D457F05A.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset'
+[2020.09.08-17.34.51:121][876]LogFileManager: Warning: DeleteFile was unable to delete '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset', retrying in .5s...
+[2020.09.08-17.34.51:622][876]LogFileManager: Error: Error deleting file '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset'.
+[2020.09.08-17.34.51:622][876]LogSavePackage: Error: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset'
+[2020.09.08-17.34.55:708][876]LogSlate: Window 'Message' being destroyed
+[2020.09.08-17.34.55:712][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CowCloud" FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset" SILENT=true
+[2020.09.08-17.34.55:723][876]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/CowCloud92499EA046FE0169313C18996EED9109.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset'
+[2020.09.08-17.34.55:723][876]LogFileManager: Warning: DeleteFile was unable to delete '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset', retrying in .5s...
+[2020.09.08-17.34.56:224][876]LogFileManager: Error: Error deleting file '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset'.
+[2020.09.08-17.34.56:224][876]LogSavePackage: Error: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset'
+[2020.09.08-17.34.56:867][876]LogSlate: Window 'Message' being destroyed
+[2020.09.08-17.34.56:917][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.08-17.34.56:999][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.09.08-17.34.57:660][876]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Level1DD287A7A42BBEA0D3FCF808F63E58F2F.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Levels/Level1.umap'
+[2020.09.08-17.34.57:660][876]LogFileManager: Warning: DeleteFile was unable to delete '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Levels/Level1.umap', retrying in .5s...
+[2020.09.08-17.34.58:162][876]LogFileManager: Error: Error deleting file '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Levels/Level1.umap'.
+[2020.09.08-17.34.58:162][876]LogSavePackage: Error: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Levels/Level1.umap'
+[2020.09.08-17.34.58:214][876]EditorErrors: New page: Save Output
+[2020.09.08-17.34.58:214][876]EditorErrors: Warning: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Levels/Level1.umap'
+[2020.09.08-17.34.58:318][876]LogFileHelpers: Saving map 'Level1' took 1.441
+[2020.09.08-17.34.58:878][876]LogSlate: Window 'Message' being destroyed
+[2020.09.08-17.34.58:885][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Terminal" FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Terminal.uasset" SILENT=true
+[2020.09.08-17.34.58:981][876]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/TerminalD31CF67D47BB49027C9B77818A077A6A.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Terminal.uasset'
+[2020.09.08-17.34.58:981][876]LogFileManager: Warning: DeleteFile was unable to delete '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Terminal.uasset', retrying in .5s...
+[2020.09.08-17.34.59:482][876]LogFileManager: Error: Error deleting file '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Terminal.uasset'.
+[2020.09.08-17.34.59:482][876]LogSavePackage: Error: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Terminal.uasset'
+[2020.09.08-17.35.00:024][876]LogSlate: Window 'Message' being destroyed
+[2020.09.08-17.35.00:031][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WinCow" FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/WinCow.uasset" SILENT=true
+[2020.09.08-17.35.00:060][876]LogSavePackage: Moving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/WinCowAACF722742DE98A52E9F19AB8322F804.tmp' to '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/WinCow.uasset'
+[2020.09.08-17.35.00:060][876]LogFileManager: Warning: DeleteFile was unable to delete '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/WinCow.uasset', retrying in .5s...
+[2020.09.08-17.35.00:561][876]LogFileManager: Error: Error deleting file '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/WinCow.uasset'.
+[2020.09.08-17.35.00:561][876]LogSavePackage: Error: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/WinCow.uasset'
+[2020.09.08-17.35.01:108][876]LogSlate: Window 'Message' being destroyed
+[2020.09.08-17.35.01:116][876]EditorErrors: New page: Save Output
+[2020.09.08-17.35.01:116][876]EditorErrors: Warning: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset'
+[2020.09.08-17.35.01:116][876]EditorErrors: Warning: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/CowCloud.uasset'
+[2020.09.08-17.35.01:116][876]EditorErrors: Warning: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Terminal.uasset'
+[2020.09.08-17.35.01:116][876]EditorErrors: Warning: Error saving '../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/WinCow.uasset'
+[2020.09.08-17.35.01:118][876]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.09.08-17.35.02:168][876]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2020.09.08-17.35.02:263][876]LogSlate: Window 'Message Log' being destroyed
+[2020.09.08-17.35.02:266][876]LogSlate: Window 'BullCowGame - Unreal Editor' being destroyed
+[2020.09.08-17.35.02:657][877]Cmd: QUIT_EDITOR
+[2020.09.08-17.35.03:968][877]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.09.08-17.35.04:058][877]LogExit: Preparing to exit.
+[2020.09.08-17.35.04:912][877]LogExit: Editor shut down
+[2020.09.08-17.35.04:912][877]LogExit: Transaction tracking system shut down
+[2020.09.08-17.35.07:925][877]LogExit: Object subsystem successfully closed.
+[2020.09.08-17.35.08:293][877]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.09.08-17.35.08:343][877]LogD3D11RHI: Shutdown
+[2020.09.08-17.35.08:343][877]LogD3D11RHI: CleanupD3DDevice
+[2020.09.08-17.35.08:381][877]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.09.08-17.35.08:381][877]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.09.08-17.35.08:452][877]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.09.08-17.35.08:453][877]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.09.08-17.35.08:453][877]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.09.08-17.35.08:453][877]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.09.08-17.35.08:692][877]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.09.08-17.35.11:093][877]LogModuleManager: Shutting down and abandoning module BlueprintGraph (651)
+[2020.09.08-17.35.11:093][877]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (649)
+[2020.09.08-17.35.11:093][877]LogModuleManager: Shutting down and abandoning module Voice (647)
+[2020.09.08-17.35.11:112][877]LogModuleManager: Shutting down and abandoning module BullCowGame (645)
+[2020.09.08-17.35.11:112][877]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2020.09.08-17.35.11:112][877]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2020.09.08-17.35.11:113][877]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2020.09.08-17.35.11:183][877]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2020.09.08-17.35.11:183][877]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2020.09.08-17.35.11:183][877]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2020.09.08-17.35.11:187][877]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2020.09.08-17.35.11:214][877]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2020.09.08-17.35.11:247][877]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2020.09.08-17.35.11:345][877]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2020.09.08-17.35.11:419][877]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2020.09.08-17.35.11:419][877]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2020.09.08-17.35.11:419][877]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2020.09.08-17.35.11:419][877]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2020.09.08-17.35.11:419][877]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2020.09.08-17.35.11:419][877]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2020.09.08-17.35.11:461][877]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2020.09.08-17.35.11:488][877]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2020.09.08-17.35.11:524][877]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2020.09.08-17.35.11:552][877]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2020.09.08-17.35.11:616][877]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2020.09.08-17.35.11:674][877]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2020.09.08-17.35.11:706][877]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2020.09.08-17.35.11:706][877]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2020.09.08-17.35.11:767][877]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2020.09.08-17.35.11:772][877]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2020.09.08-17.35.11:772][877]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2020.09.08-17.35.11:772][877]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2020.09.08-17.35.11:772][877]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2020.09.08-17.35.11:772][877]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2020.09.08-17.35.11:779][877]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2020.09.08-17.35.11:840][877]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2020.09.08-17.35.12:013][877]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2020.09.08-17.35.12:038][877]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2020.09.08-17.35.12:038][877]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2020.09.08-17.35.12:042][877]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2020.09.08-17.35.12:065][877]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2020.09.08-17.35.12:322][877]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2020.09.08-17.35.12:334][877]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2020.09.08-17.35.12:399][877]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2020.09.08-17.35.12:477][877]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2020.09.08-17.35.12:477][877]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2020.09.08-17.35.12:477][877]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2020.09.08-17.35.12:477][877]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2020.09.08-17.35.12:498][877]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2020.09.08-17.35.12:780][877]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2020.09.08-17.35.12:780][877]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2020.09.08-17.35.12:780][877]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2020.09.08-17.35.12:780][877]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2020.09.08-17.35.12:780][877]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2020.09.08-17.35.12:780][877]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2020.09.08-17.35.12:820][877]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2020.09.08-17.35.12:943][877]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2020.09.08-17.35.12:981][877]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2020.09.08-17.35.12:986][877]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2020.09.08-17.35.12:986][877]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2020.09.08-17.35.12:996][877]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2020.09.08-17.35.13:116][877]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2020.09.08-17.35.13:191][877]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2020.09.08-17.35.13:191][877]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2020.09.08-17.35.13:191][877]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2020.09.08-17.35.13:191][877]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2020.09.08-17.35.13:191][877]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2020.09.08-17.35.13:230][877]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2020.09.08-17.35.13:334][877]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2020.09.08-17.35.13:347][877]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2020.09.08-17.35.13:359][877]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2020.09.08-17.35.13:370][877]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2020.09.08-17.35.13:414][877]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2020.09.08-17.35.13:446][877]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2020.09.08-17.35.13:465][877]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2020.09.08-17.35.13:488][877]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2020.09.08-17.35.13:488][877]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2020.09.08-17.35.13:503][877]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2020.09.08-17.35.13:503][877]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2020.09.08-17.35.13:517][877]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2020.09.08-17.35.13:584][877]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2020.09.08-17.35.13:584][877]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2020.09.08-17.35.13:585][877]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2020.09.08-17.35.13:589][877]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2020.09.08-17.35.13:589][877]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2020.09.08-17.35.13:589][877]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2020.09.08-17.35.13:589][877]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2020.09.08-17.35.13:595][877]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.09.08-17.35.13:599][877]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.09.08-17.35.13:602][877]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.09.08-17.35.13:602][877]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.09.08-17.35.13:607][877]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.09.08-17.35.13:607][877]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.09.08-17.35.13:622][877]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.09.08-17.35.13:622][877]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.09.08-17.35.13:622][877]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.09.08-17.35.13:636][877]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.09.08-17.35.13:704][877]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.09.08-17.35.13:704][877]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.09.08-17.35.13:704][877]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.09.08-17.35.13:704][877]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.09.08-17.35.13:704][877]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.09.08-17.35.13:704][877]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.09.08-17.35.13:713][877]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.09.08-17.35.13:713][877]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.09.08-17.35.13:723][877]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.09.08-17.35.13:723][877]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2020.09.08-17.35.13:727][877]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2020.09.08-17.35.13:751][877]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2020.09.08-17.35.13:850][877]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2020.09.08-17.35.13:850][877]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2020.09.08-17.35.13:857][877]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2020.09.08-17.35.13:860][877]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2020.09.08-17.35.13:871][877]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2020.09.08-17.35.13:871][877]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2020.09.08-17.35.13:871][877]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2020.09.08-17.35.13:881][877]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2020.09.08-17.35.13:881][877]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2020.09.08-17.35.13:893][877]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2020.09.08-17.35.13:893][877]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2020.09.08-17.35.13:893][877]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2020.09.08-17.35.13:893][877]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2020.09.08-17.35.13:977][877]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2020.09.08-17.35.13:995][877]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2020.09.08-17.35.13:995][877]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2020.09.08-17.35.13:995][877]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2020.09.08-17.35.13:995][877]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2020.09.08-17.35.13:995][877]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2020.09.08-17.35.14:001][877]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2020.09.08-17.35.14:011][877]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2020.09.08-17.35.14:011][877]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2020.09.08-17.35.14:011][877]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2020.09.08-17.35.14:011][877]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2020.09.08-17.35.14:022][877]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2020.09.08-17.35.14:022][877]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2020.09.08-17.35.14:022][877]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.09.08-17.35.14:023][877]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.09.08-17.35.14:023][877]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.09.08-17.35.14:023][877]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.09.08-17.35.14:023][877]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.09.08-17.35.14:023][877]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2020.09.08-17.35.14:023][877]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2020.09.08-17.35.14:034][877]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.09.08-17.35.14:034][877]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.09.08-17.35.14:156][877]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.09.08-17.35.14:162][877]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2020.09.08-17.35.14:236][877]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2020.09.08-17.35.14:236][877]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2020.09.08-17.35.14:236][877]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2020.09.08-17.35.14:241][877]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2020.09.08-17.35.14:241][877]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2020.09.08-17.35.14:241][877]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2020.09.08-17.35.14:311][877]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2020.09.08-17.35.14:387][877]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2020.09.08-17.35.14:391][877]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2020.09.08-17.35.14:398][877]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2020.09.08-17.35.14:398][877]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2020.09.08-17.35.14:398][877]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2020.09.08-17.35.14:398][877]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2020.09.08-17.35.14:398][877]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.09.08-17.35.14:398][877]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.09.08-17.35.14:398][877]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.09.08-17.35.14:398][877]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.09.08-17.35.14:422][877]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.09.08-17.35.14:422][877]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.09.08-17.35.14:422][877]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.09.08-17.35.14:422][877]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.09.08-17.35.14:422][877]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.09.08-17.35.14:422][877]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.09.08-17.35.14:422][877]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.09.08-17.35.14:523][877]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.09.08-17.35.14:659][877]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.09.08-17.35.14:659][877]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.09.08-17.35.14:659][877]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.09.08-17.35.14:668][877]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.09.08-17.35.14:668][877]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.09.08-17.35.14:686][877]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.09.08-17.35.14:686][877]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.09.08-17.35.14:686][877]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.09.08-17.35.14:687][877]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.09.08-17.35.14:695][877]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.09.08-17.35.14:696][877]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.09.08-17.35.14:696][877]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.09.08-17.35.14:696][877]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.09.08-17.35.14:737][877]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.09.08-17.35.14:760][877]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.09.08-17.35.14:766][877]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.09.08-17.35.14:767][877]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.09.08-17.35.14:767][877]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.09.08-17.35.14:816][877]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.09.08-17.35.14:817][877]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.09.08-17.35.14:882][877]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.09.08-17.35.14:882][877]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.09.08-17.35.14:882][877]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.09.08-17.35.14:882][877]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.09.08-17.35.14:892][877]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.09.08-17.35.14:932][877]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.09.08-17.35.14:943][877]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.09.08-17.35.14:943][877]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.09.08-17.35.14:943][877]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.09.08-17.35.15:007][877]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.09.08-17.35.15:007][877]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.09.08-17.35.15:007][877]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.09.08-17.35.15:007][877]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.09.08-17.35.15:037][877]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.09.08-17.35.15:038][877]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.09.08-17.35.15:038][877]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.09.08-17.35.15:165][877]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.09.08-17.35.15:174][877]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.09.08-17.35.15:255][877]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.09.08-17.35.15:288][877]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.09.08-17.35.15:381][877]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.09.08-17.35.15:597][877]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.09.08-17.35.15:904][877]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.09.08-17.35.15:904][877]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.09.08-17.35.16:207][877]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.09.08-17.35.16:207][877]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.09.08-17.35.16:397][877]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.09.08-17.35.16:440][877]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.09.08-17.35.16:440][877]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.09.08-17.35.16:441][877]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.09.08-17.35.16:441][877]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.09.08-17.35.16:441][877]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.09.08-17.35.16:441][877]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.09.08-17.35.16:441][877]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.09.08-17.35.16:441][877]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.09.08-17.35.16:441][877]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.09.08-17.35.16:453][877]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.09.08-17.35.16:453][877]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.09.08-17.35.16:473][877]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.09.08-17.35.16:662][877]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.09.08-17.35.16:671][877]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.09.08-17.35.16:681][877]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.09.08-17.35.16:699][877]LogDerivedDataCache: Shutdown
+[2020.09.08-17.35.16:699][877]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.09.08-17.35.16:716][877]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.09.08-17.35.16:740][877]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.09.08-17.35.16:758][877]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.09.08-17.35.16:768][877]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.09.08-17.35.16:783][877]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.09.08-17.35.16:857][877]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.09.08-17.35.16:943][877]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.09.08-17.35.16:943][877]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.09.08-17.35.16:943][877]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.09.08-17.35.16:965][877]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.09.08-17.35.16:966][877]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.09.08-17.35.16:966][877]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.09.08-17.35.16:966][877]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.09.08-17.35.16:966][877]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.09.08-17.35.16:984][877]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.09.08-17.35.16:984][877]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.09.08-17.35.17:064][877]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.09.08-17.35.17:120][877]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.09.08-17.35.17:120][877]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.09.08-17.35.17:127][877]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.09.08-17.35.17:193][877]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.09.08-17.35.17:208][877]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.09.08-17.35.17:209][877]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.09.08-17.35.17:209][877]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.09.08-17.35.17:210][877]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.09.08-17.35.17:210][877]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.09.08-17.35.17:221][877]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.09.08-17.35.17:222][877]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.09.08-17.35.17:223][877]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.09.08-17.35.17:223][877]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.09.08-17.35.17:225][877]LogHMD: Freeing OpenVRDLLHandle.
+[2020.09.08-17.35.17:225][877]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.09.08-17.35.17:246][877]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.09.08-17.35.17:246][877]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.09.08-17.35.17:247][877]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.09.08-17.35.17:247][877]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.09.08-17.35.17:247][877]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.09.08-17.35.17:262][877]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.09.08-17.35.17:486][877]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.09.08-17.35.17:486][877]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2020.09.08-17.35.17:486][877]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC696B541-4132-033C-273E-399D2E996F3D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=caedf5534137020583c8d3b5f2906f19%7Ceb228eb85789439ebfef6547cb5509f1%7C36474102-df55-4af4-80ec-b6dd9e34fb2f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.09.08-17.35.17:486][877]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC696B541-4132-033C-273E-399D2E996F3D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=caedf5534137020583c8d3b5f2906f19%7Ceb228eb85789439ebfef6547cb5509f1%7C36474102-df55-4af4-80ec-b6dd9e34fb2f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.09.08-17.35.17:493][877]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.09.08-17.35.17:559][877]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.09.08-17.35.17:574][877]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.09.08-17.35.17:581][877]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.09.08-17.35.17:695][877]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.09.08-17.35.17:758][877]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.09.08-17.35.17:791][877]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.09.08-17.35.17:799][877]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.09.08-17.35.17:830][877]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.09.08-17.35.17:849][877]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.09.08-17.35.17:849][877]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.09.08-17.35.17:849][877]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.09.08-17.35.17:870][877]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.09.08-17.35.18:018][877]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.09.08-17.35.18:018][877]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.09.08-17.35.18:026][877]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.09.08-17.35.18:026][877]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.09.08-17.35.18:026][877]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.09.08-17.35.18:026][877]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.09.08-17.35.18:029][877]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.09.08-17.35.18:029][877]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.09.08-17.35.18:038][877]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.09.08-17.35.18:038][877]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.09.08-17.35.18:047][877]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.09.08-17.35.18:080][877]LogExit: Exiting.
+[2020.09.08-17.35.18:161][877]Log file closed, 09/08/20 10:35:18
+>>>>>>> rain

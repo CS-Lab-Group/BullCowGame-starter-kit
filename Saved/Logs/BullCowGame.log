@@ -1,4 +1,4 @@
-﻿Log file open, 09/03/20 16:04:34
+﻿Log file open, 09/08/20 11:14:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: BullCowGame
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.584728
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.166670
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -97,60 +97,6 @@ LogPluginManager: Mounting plugin SignificanceManager
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogInit: Warning: Incompatible or missing module: BullCowGame
-Running D:/Grant/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/BullCowGame.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Grant\Desktop\gitHub\BullCowGame-starter-kit\BullCowGame-starter-kit).
-Creating makefile for BullCowGameEditor (no existing makefile)
-@progress push 5%
-Parsing headers for BullCowGameEditor
-  Running UnrealHeaderTool "C:\Users\Grant\Desktop\gitHub\BullCowGame-starter-kit\BullCowGame-starter-kit\BullCowGame.uproject" "C:\Users\Grant\Desktop\gitHub\BullCowGame-starter-kit\BullCowGame-starter-kit\Intermediate\Build\Win64\BullCowGameEditor\Development\BullCowGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for BullCowGameEditor in 8.5690246 seconds
-@progress pop
-Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-Building 19 actions with 16 processes...
-  @progress 'Compiling C++ source code...' 0%
-  @progress 'Compiling C++ source code...' 5%
-  [1/19] Default.rc2
-  @progress 'Compiling C++ source code...' 11%
-  [2/19] SharedPCH.Engine.cpp
-  @progress 'Compiling C++ source code...' 16%
-  [3/19] BullCowGame.cpp
-  @progress 'Compiling C++ source code...' 21%
-  [4/19] LukeMoo.cpp
-  @progress 'Compiling C++ source code...' 26%
-  [5/19] Cartridge.cpp
-  @progress 'Compiling C++ source code...' 32%
-  [6/19] BullCowGame.init.gen.cpp
-  @progress 'Compiling C++ source code...' 37%
-  [7/19] SoundContoller.cpp
-  @progress 'Compiling C++ source code...' 42%
-  [8/19] BullCowGameGameModeBase.cpp
-  @progress 'Compiling C++ source code...' 47%
-  [9/19] SoundContoller.gen.cpp
-  @progress 'Compiling C++ source code...' 53%
-  [10/19] Terminal.gen.cpp
-  @progress 'Compiling C++ source code...' 58%
-  [11/19] BullCowCartridge.gen.cpp
-  @progress 'Compiling C++ source code...' 63%
-  [12/19] Cartridge.gen.cpp
-  @progress 'Compiling C++ source code...' 68%
-  [13/19] LukeMoo.gen.cpp
-  @progress 'Compiling C++ source code...' 74%
-  [14/19] BullCowGameGameModeBase.gen.cpp
-  @progress 'Compiling C++ source code...' 79%
-  [15/19] Terminal.cpp
-  @progress 'Compiling C++ source code...' 84%
-  [16/19] BullCowCartridge.cpp
-  @progress 'Compiling C++ source code...' 89%
-  [17/19] UE4Editor-BullCowGame.lib
-     Creating library C:\Users\Grant\Desktop\gitHub\BullCowGame-starter-kit\BullCowGame-starter-kit\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame.lib and object C:\Users\Grant\Desktop\gitHub\BullCowGame-starter-kit\BullCowGame-starter-kit\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame.exp
-  @progress 'Compiling C++ source code...' 95%
-  [18/19] UE4Editor-BullCowGame.dll
-     Creating library C:\Users\Grant\Desktop\gitHub\BullCowGame-starter-kit\BullCowGame-starter-kit\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame.suppressed.lib and object C:\Users\Grant\Desktop\gitHub\BullCowGame-starter-kit\BullCowGame-starter-kit\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame.suppressed.exp
-  @progress 'Compiling C++ source code...' 100%
-  [19/19] BullCowGameEditor.target
-Total time in Parallel executor: 72.68 seconds
-Total execution time: 97.63 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -174,13 +120,13 @@ LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
-LogInit: OS: Windows 10 (Release 1803) (), CPU: AMD Ryzen 7 1700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz, GPU: NVIDIA GeForce GTX 1060 6GB
 LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
 LogInit: Command Line: 
-LogInit: Base Directory: D:/Grant/UE_4.22/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -210,883 +156,423 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
-[2020.09.03-23.06.17:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.09.03-23.06.17:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
-[2020.09.03-23.06.17:869][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
-[2020.09.03-23.06.17:890][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.03-23.06.17:890][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.03-23.06.17:891][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.03-23.06.17:892][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.03-23.06.17:892][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.03-23.06.17:892][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.03-23.06.17:907][  0]LogHAL: Display: Platform has ~ 16 GB [17105539072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2020.09.03-23.06.17:907][  0]LogInit: Going up to parent DeviceProfile []
-[2020.09.03-23.06.17:907][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.03-23.06.17:907][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.03-23.06.17:908][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.09.03-23.06.17:909][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.09.03-23.06.17:909][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.09.03-23.06.17:909][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
-[2020.09.03-23.06.17:909][  0]LogInit: Computer: DESKTOP-4IU2F2H
-[2020.09.03-23.06.17:909][  0]LogInit: User: Grant
-[2020.09.03-23.06.17:909][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.09.03-23.06.17:909][  0]LogInit: High frequency timer resolution =3.314090 MHz
-[2020.09.03-23.06.17:909][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.09.03-23.06.17:909][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.03-23.06.17:909][  0]LogMemory: Process Physical Memory: 102.32 MB used, 102.32 MB peak
-[2020.09.03-23.06.17:909][  0]LogMemory: Process Virtual Memory: 91.29 MB used, 91.29 MB peak
-[2020.09.03-23.06.17:909][  0]LogMemory: Physical Memory: 5577.61 MB used,  10735.50 MB free, 16313.11 MB total
-[2020.09.03-23.06.17:909][  0]LogMemory: Virtual Memory: 4734.59 MB used,  134212992.00 MB free, 134217728.00 MB total
-[2020.09.03-23.06.17:945][  0]LogInit: Using OS detected language (en-US).
-[2020.09.03-23.06.17:945][  0]LogInit: Using OS detected locale (en-US).
-[2020.09.03-23.06.17:945][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.09.03-23.06.18:174][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.03-23.06.18:215][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.09.03-23.06.18:215][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.09.03-23.06.18:421][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.03-23.06.18:421][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.03-23.06.18:501][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2020.09.03-23.06.18:501][  0]LogD3D11RHI:       6052/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2020.09.03-23.06.18:505][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.03-23.06.18:505][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.03-23.06.18:505][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.03-23.06.18:523][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.03-23.06.18:523][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2020.09.03-23.06.18:523][  0]LogWindows: EnumDisplayDevices:
-[2020.09.03-23.06.18:523][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2020.09.03-23.06.18:524][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2020.09.03-23.06.18:524][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2020.09.03-23.06.18:524][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2020.09.03-23.06.18:524][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.09.03-23.06.18:524][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2020.09.03-23.06.18:524][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.09.03-23.06.18:524][  0]LogD3D11RHI:      Driver Date: 3-17-2020
-[2020.09.03-23.06.18:524][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2020.09.03-23.06.18:586][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.03-23.06.18:590][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.09.03-23.06.18:591][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.09.03-23.06.18:591][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.09.03-23.06.18:599][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.03-23.06.18:947][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.09.03-23.06.18:970][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.09.03-23.06.18:996][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.09.03-23.06.19:017][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.09.03-23.06.19:036][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.09.03-23.06.19:053][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.09.03-23.06.19:069][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.09.03-23.06.19:086][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.09.03-23.06.19:093][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.09.03-23.06.19:201][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.09.03-23.06.19:202][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.09.03-23.06.19:202][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.09.03-23.06.19:202][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.09.03-23.06.19:202][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.09.03-23.06.19:202][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.09.03-23.06.19:202][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.09.03-23.06.19:204][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.09.03-23.06.19:259][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.09.03-23.06.19:259][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.09.03-23.06.19:288][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.09.03-23.06.19:288][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.09.03-23.06.19:304][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.09.03-23.06.19:321][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.09.03-23.06.19:340][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.09.03-23.06.19:357][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.09.03-23.06.19:419][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.09.03-23.06.19:419][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.09.03-23.06.19:419][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.03-23.06.19:431][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.09.03-23.06.19:478][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Intermediate/Shaders/WorkingDirectory/17480/).
-[2020.09.03-23.06.19:478][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Grant/AppData/Local/Temp/UnrealShaderWorkingDir/BC0D13C841995C821D366AABC17CFC66/'.
-[2020.09.03-23.06.19:479][  0]LogXGEController: Cleaning working directory: C:/Users/Grant/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.09.03-23.06.19:480][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.09.03-23.06.19:480][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.09.03-23.06.19:480][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.03-23.06.20:167][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.03-23.06.20:229][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Grant/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2020.09.03-23.06.20:229][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Grant/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2020.09.03-23.06.20:229][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.03-23.06.20:229][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.03-23.06.20:229][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.03-23.06.20:229][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.03-23.06.20:243][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.03-23.06.20:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.03-23.06.20:244][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.09.03-23.06.20:256][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Grant/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.03-23.06.20:256][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.09.03-23.06.20:256][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.09.03-23.06.20:282][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.09.03-23.06.20:283][  0]LogSlate: Using FreeType 2.6.0
-[2020.09.03-23.06.20:284][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.03-23.06.20:390][  0]LogAssetRegistry: FAssetRegistry took 0.0381 seconds to start up
-[2020.09.03-23.06.20:839][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.03-23.06.21:007][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.03-23.06.21:007][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.09.03-23.06.21:007][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.09.03-23.06.21:007][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.09.03-23.06.21:007][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.09.03-23.06.21:021][  0]LogNetVersion: BullCowGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2070390679)
-[2020.09.03-23.06.21:524][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.058525 seconds
-[2020.09.03-23.06.21:535][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2020.09.03-23.06.21:535][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2020.09.03-23.06.21:535][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.03-23.06.22:492][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.03-23.06.22:506][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.03-23.06.22:647][  0]SourceControl: Source control is disabled
-[2020.09.03-23.06.22:647][  0]SourceControl: Source control is disabled
-[2020.09.03-23.06.22:649][  0]SourceControl: Source control is disabled
-[2020.09.03-23.06.22:650][  0]SourceControl: Source control is disabled
-[2020.09.03-23.06.22:752][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.03-23.06.22:904][  0]LogOcInput: OculusInput pre-init called
-[2020.09.03-23.06.23:659][  0]LogEngine: Initializing Engine...
-[2020.09.03-23.06.23:660][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.03-23.06.23:661][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.09.03-23.06.23:919][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.09.03-23.06.23:930][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.03-23.06.23:987][  0]LogInit: XAudio2 using 'Grant's Headset (2- High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.09.03-23.06.24:006][  0]LogInit: FAudioDevice initialized.
-[2020.09.03-23.06.24:006][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.09.03-23.06.24:111][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Grant/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2020.09.03-23.06.24:125][  0]LogInit: Texture streaming: Enabled
-[2020.09.03-23.06.24:145][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.03-23.06.24:177][  0]LogInit: Transaction tracking system initialized
-[2020.09.03-23.06.24:206][  0]BlueprintLog: New page: Editor Load
-[2020.09.03-23.06.24:299][  0]LocalizationService: Localization service is disabled
-[2020.09.03-23.06.24:660][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/' took 0.02s
-[2020.09.03-23.06.24:660][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.03-23.06.24:660][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.03-23.06.24:881][  0]SourceControl: Source control is disabled
-[2020.09.03-23.06.24:881][  0]Cmd: MAP LOAD FILE="C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.03-23.06.24:887][  0]LightingResults: New page: Lighting Build
-[2020.09.03-23.06.24:889][  0]MapCheck: New page: Map Check
-[2020.09.03-23.06.24:889][  0]LightingResults: New page: Lighting Build
-[2020.09.03-23.06.24:921][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
-[2020.09.03-23.06.25:566][  0]LogMaterial: Display: Missing cached shader map for material Gold_Cow, compiling. 
-[2020.09.03-23.06.25:654][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave LukeMoo...
-[2020.09.03-23.06.25:802][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 634880 while cooking SoundWave /Game/sounds/LukeMoo.LukeMoo.
-[2020.09.03-23.06.25:889][  0]LogAIModule: Creating AISystem for world Level1
-[2020.09.03-23.06.25:991][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.03-23.06.26:028][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
-[2020.09.03-23.06.26:028][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.03-23.06.26:029][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.286ms to complete.
-[2020.09.03-23.06.26:029][  0]LogFileHelpers: Loading map 'Level1' took 1.148
-[2020.09.03-23.06.26:154][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.06.26:163][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.06.26:172][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.06.26:181][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.06.26:186][  0]LogCollectionManager: Loaded 0 collections in 0.000862 seconds
-[2020.09.03-23.06.26:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Collections/' took 0.01s
-[2020.09.03-23.06.26:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/Developers/Grant/Collections/' took 0.01s
-[2020.09.03-23.06.26:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/Collections/' took 0.01s
-[2020.09.03-23.06.26:227][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.09.03-23.06.26:239][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2738 classes and 662 folders.
-[2020.09.03-23.06.26:245][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.09.03-23.06.26:246][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:247][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:247][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:248][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:248][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.09.03-23.06.26:286][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.09.03-23.06.26:291][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2020.09.03-23.06.26:315][  0]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.03-23.06.26:318][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.03-23.06.26:324][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.03-23.06.26:403][  0]LogRenderer: Reallocating scene render targets to support 1164x572 Format 10 NumSamples 1 (Frame:1).
-[2020.09.03-23.06.26:478][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.03-23.06.26:562][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.09.03-23.06.26:562][  0]LogLoad: (Engine Initialization) Total time: 113.97 seconds
-[2020.09.03-23.06.26:562][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.03-23.06.26:573][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.09.03-23.06.26:626][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.03-23.06.26:676][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/' took 0.10s
-[2020.09.03-23.06.34:784][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.06.34:828][902]LogTemp: Repeating last play command: Selected Viewport
-[2020.09.03-23.06.34:844][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.06.34:844][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.03-23.06.34:844][902]PIE: New page: PIE session: Level1 (Sep 3, 2020, 9:06:34 AM)
-[2020.09.03-23.06.34:857][902]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2020.09.03-23.06.34:908][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051035s)
-[2020.09.03-23.06.34:909][902]LogAIModule: Creating AISystem for world Level1
-[2020.09.03-23.06.34:909][902]LogPlayLevel: PIE: World Init took: (0.000778s)
-[2020.09.03-23.06.34:909][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.052144s)
-[2020.09.03-23.06.34:952][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
-[2020.09.03-23.06.34:997][902]LogInit: XAudio2 using 'Grant's Headset (2- High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.09.03-23.06.35:014][902]LogInit: FAudioDevice initialized.
-[2020.09.03-23.06.35:055][902]LogLoad: Game class is 'GameModeBase'
-[2020.09.03-23.06.35:062][902]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.03-16.06.35
-[2020.09.03-23.06.35:077][902]LogWorld: Bringing up level for play took: 0.019725
-[2020.09.03-23.06.35:095][902]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
-[2020.09.03-23.06.35:122][902]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.063
-[2020.09.03-23.06.35:122][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.06.35:517][934]LogTemp: IOS device listing is disabled (to many failed attempts)!
-[2020.09.03-23.06.40:378][506]LogAssetRegistry: Asset discovery search completed in 20.0103 seconds
-[2020.09.03-23.06.40:380][506]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2020.09.03-23.06.40:380][506]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
-[2020.09.03-23.06.44:021][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.06.44:021][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.06.44:052][929]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.03-23.06.44:052][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.06.44:093][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.06.44:097][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
-[2020.09.03-23.06.44:126][930]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2020.09.03-23.06.47:502][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.07.14:879][782]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2020.09.03-23.07.15:004][782]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
-[2020.09.03-23.07.15:208][782]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.09.03-23.07.16:071][864]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2020.09.03-23.07.47:645][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.16.26:820][800]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.03-23.22.36:482][906]LogHttp: Warning: 000002000F218B80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2020.09.03-23.22.36:482][906]LogHttp: Warning: 000002000F218B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2020.09.03-23.22.36:482][906]LogHttp: Warning: 000002000F218B80: libcurl info message cache 1 (Closing connection 5)
-[2020.09.03-23.22.36:482][906]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3ABC2449-42D1-07CF-060C-C08884DD9931%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=42c06a1b4c791c573eda3d9d2bd07b69%7Cc040ee0109b8485998ecc1f23a00dc6e%7Ccc209624-2e66-4f3c-ba78-a36665f00f3c&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2020.09.03-23.24.10:553][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.24.36:667][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.24.38:586][363]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/Collections/' because it could not be accessed. Aborting watch request...
-[2020.09.03-23.24.38:586][363]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/Developers/Grant/Collections/' because it could not be accessed. Aborting watch request...
-[2020.09.03-23.24.38:620][366]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Collections/' because it could not be accessed. Aborting watch request...
-[2020.09.03-23.25.16:208][615]LogStaticMesh: Allocated 32x8x11 distance field atlas = 0.0Mb, with 4 objects containing 0.0Mb backing data
-[2020.09.03-23.25.16:609][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.09.03-23.25.16:617][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.09.03-23.25.16:626][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.09.03-23.25.16:633][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.09.03-23.25.16:641][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.09.03-23.25.18:161][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.25.25:236][367]LogSlate: Window 'Message' being destroyed
-[2020.09.03-23.25.46:057][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.26.11:451][303]Cmd: TRANSACTION UNDO
-[2020.09.03-23.26.11:451][303]LogEditorTransaction: Undo Foliage Editing
-[2020.09.03-23.26.54:757][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.27.16:264][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.27.22:561][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.27.22:640][ 92]LogTemp: Repeating last play command: Selected Viewport
-[2020.09.03-23.27.22:657][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.27.22:657][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.03-23.27.22:657][ 92]PIE: New page: PIE session: Level1 (Sep 3, 2020, 9:27:22 AM)
-[2020.09.03-23.27.22:657][ 92]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2020.09.03-23.27.22:759][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102437s)
-[2020.09.03-23.27.22:760][ 92]LogAIModule: Creating AISystem for world Level1
-[2020.09.03-23.27.22:760][ 92]LogPlayLevel: PIE: World Init took: (0.000819s)
-[2020.09.03-23.27.22:760][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.103420s)
-[2020.09.03-23.27.22:784][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
-[2020.09.03-23.27.22:823][ 92]LogInit: XAudio2 using 'Grant's Headset (2- High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.09.03-23.27.22:836][ 92]LogInit: FAudioDevice initialized.
-[2020.09.03-23.27.22:864][ 92]LogLoad: Game class is 'GameModeBase'
-[2020.09.03-23.27.22:887][ 92]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.03-16.27.22
-[2020.09.03-23.27.22:888][ 92]LogWorld: Bringing up level for play took: 0.022910
-[2020.09.03-23.27.22:903][ 92]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.156
-[2020.09.03-23.27.22:903][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.27.28:544][534]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.27.28:544][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.27.28:593][534]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.03-23.27.28:593][534]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.27.28:629][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.27.28:632][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
-[2020.09.03-23.27.28:650][535]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2020.09.03-23.27.34:225][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.27.42:754][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.27.42:846][320]LogTemp: Repeating last play command: Selected Viewport
-[2020.09.03-23.27.42:861][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.27.42:861][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.03-23.27.42:861][320]PIE: New page: PIE session: Level1 (Sep 3, 2020, 9:27:42 AM)
-[2020.09.03-23.27.42:861][320]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2020.09.03-23.27.42:965][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103377s)
-[2020.09.03-23.27.42:965][320]LogAIModule: Creating AISystem for world Level1
-[2020.09.03-23.27.42:966][320]LogPlayLevel: PIE: World Init took: (0.000667s)
-[2020.09.03-23.27.42:966][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.104414s)
-[2020.09.03-23.27.42:989][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
-[2020.09.03-23.27.43:027][320]LogInit: XAudio2 using 'Grant's Headset (2- High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.09.03-23.27.43:038][320]LogInit: FAudioDevice initialized.
-[2020.09.03-23.27.43:072][320]LogLoad: Game class is 'GameModeBase'
-[2020.09.03-23.27.43:096][320]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.09.03-16.27.43
-[2020.09.03-23.27.43:097][320]LogWorld: Bringing up level for play took: 0.023830
-[2020.09.03-23.27.43:112][320]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.053
-[2020.09.03-23.27.43:112][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.28.04:530][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.28.04:530][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.28.04:579][ 32]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.03-23.28.04:579][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2020.09.03-23.28.04:618][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-23.28.04:623][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
-[2020.09.03-23.28.04:647][ 33]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2020.09.03-23.28.05:519][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.09.03-23.28.05:562][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.09.03-23.28.06:904][ 80]LogSavePackage: Moving 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Level153541AEE4A3405F577742BA1A3203912.tmp' to 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/Levels/Level1.umap'
-[2020.09.03-23.28.52:002][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.09.03-23.28.52:046][567]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
-[2020.09.03-23.28.53:339][567]LogSavePackage: Moving 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Level1DC3212874044CA6253DC4E8AB2AB96D2.tmp' to 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/Levels/Level1.umap'
-[2020.09.03-23.28.53:639][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.09.03-23.29.34:961][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
-[2020.09.03-23.29.36:789][823]LogSlate: Window 'Save Content' being destroyed
-[2020.09.03-23.29.36:848][823]LogSavePackage: Moving 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Grass_01_Brush_01586F3336418A8AE37AC1558E1F848982.tmp' to 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/PN_LowpolyGras/FoliageTypes/Grass_01/Grass_01_Brush_01.uasset'
-[2020.09.03-23.29.36:895][823]LogSavePackage: Moving 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Grass_01_Brush_0296BF40D34B022C1BE6D167860E04CD11.tmp' to 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/PN_LowpolyGras/FoliageTypes/Grass_01/Grass_01_Brush_02.uasset'
-[2020.09.03-23.29.36:942][823]LogSavePackage: Moving 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Grass_01_Brush_033559DB3A4278B5DB49756CAB8B20DBD9.tmp' to 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/PN_LowpolyGras/FoliageTypes/Grass_01/Grass_01_Brush_03.uasset'
-[2020.09.03-23.29.36:996][823]LogSavePackage: Moving 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Grass_01_Brush_0438F6311548F5CDC22C202DA64A2EA76C.tmp' to 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/PN_LowpolyGras/FoliageTypes/Grass_01/Grass_01_Brush_04.uasset'
-[2020.09.03-23.29.37:037][823]LogSavePackage: Moving 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Grass_01_Brush_05B6927FA74341EB874A2CA790F327EFF2.tmp' to 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/PN_LowpolyGras/FoliageTypes/Grass_01/Grass_01_Brush_05.uasset'
-[2020.09.03-23.29.37:081][823]LogSavePackage: Moving 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Saved/Grass_01_Brush_0656A82AD34155AF51F69E71921C5A6768.tmp' to 'C:/Users/Grant/Desktop/gitHub/BullCowGame-starter-kit/BullCowGame-starter-kit/Content/PN_LowpolyGras/FoliageTypes/Grass_01/Grass_01_Brush_06.uasset'
-[2020.09.03-23.29.37:162][823]LogSlate: Window 'BullCowGame - Unreal Editor' being destroyed
-[2020.09.03-23.29.37:416][824]Cmd: QUIT_EDITOR
-[2020.09.03-23.29.38:357][824]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.09.03-23.29.38:378][824]LogExit: Preparing to exit.
-[2020.09.03-23.29.39:218][824]LogExit: Editor shut down
-[2020.09.03-23.29.39:218][824]LogExit: Transaction tracking system shut down
-[2020.09.03-23.29.39:448][824]LogExit: Object subsystem successfully closed.
-[2020.09.03-23.29.39:470][824]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.09.03-23.29.39:475][824]LogD3D11RHI: Shutdown
-[2020.09.03-23.29.39:475][824]LogD3D11RHI: CleanupD3DDevice
-[2020.09.03-23.29.39:475][824]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2020.09.03-23.29.39:475][824]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2020.09.03-23.29.39:475][824]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2020.09.03-23.29.39:475][824]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2020.09.03-23.29.39:475][824]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2020.09.03-23.29.39:475][824]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2020.09.03-23.29.39:582][824]LogD3D11RHI: ~FD3D11DynamicRHI
-[2020.09.03-23.29.39:594][824]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
-[2020.09.03-23.29.39:594][824]LogModuleManager: Shutting down and abandoning module Voice (646)
-[2020.09.03-23.29.39:594][824]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
-[2020.09.03-23.29.39:594][824]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
-[2020.09.03-23.29.39:594][824]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
-[2020.09.03-23.29.39:594][824]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
-[2020.09.03-23.29.39:594][824]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
-[2020.09.03-23.29.39:594][824]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module BspMode (616)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module OculusMR (608)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
-[2020.09.03-23.29.39:595][824]LogModuleManager: Shutting down and abandoning module SessionServices (552)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
-[2020.09.03-23.29.39:596][824]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module MergeActors (512)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
-[2020.09.03-23.29.40:146][824]LogModuleManager: Shutting down and abandoning module XmlParser (500)
-[2020.09.03-23.29.40:147][824]LogModuleManager: Shutting down and abandoning module Blutility (498)
-[2020.09.03-23.29.40:147][824]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
-[2020.09.03-23.29.40:147][824]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
-[2020.09.03-23.29.40:147][824]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
-[2020.09.03-23.29.40:147][824]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
-[2020.09.03-23.29.40:147][824]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
-[2020.09.03-23.29.40:147][824]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
-[2020.09.03-23.29.40:147][824]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
-[2020.09.03-23.29.40:148][824]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
-[2020.09.03-23.29.40:148][824]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module AutomationController (478)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module Layers (474)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module Persona (464)
-[2020.09.03-23.29.40:192][824]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module Kismet (458)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module Toolbox (452)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module ModuleUI (450)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module MovieSceneTools (448)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module OutputLog (446)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module GammaUI (444)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module Documentation (442)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module LiveCoding (440)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module LevelSequence (438)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (436)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module MovieScene (434)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (432)
-[2020.09.03-23.29.40:193][824]LogModuleManager: Shutting down and abandoning module LauncherPlatform (430)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module AnalyticsET (428)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module PortalServices (426)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module PortalRpc (424)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module MessagingRpc (422)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module AIModule (420)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module GameplayDebugger (419)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module AITestSuite (417)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module NavigationSystem (415)
-[2020.09.03-23.29.40:194][824]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
-[2020.09.03-23.29.40:198][824]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module OculusEditor (400)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module OculusInput (398)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (396)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module EditableMesh (394)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (392)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module CableComponent (390)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module AudioCapture (388)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (386)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module AndroidPermission (384)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (382)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (380)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module MediaCompositing (378)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module LinearTimecode (376)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module ImgMedia (374)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (372)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (370)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (368)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module BackChannel (360)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module AppleVision (358)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
-[2020.09.03-23.29.40:427][824]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (334)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module SourceControl (317)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (312)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module BullCowGame (298)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module SignificanceManager (296)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
-[2020.09.03-23.29.40:428][824]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
-[2020.09.03-23.29.40:530][824]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (280)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (278)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (276)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (274)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module MagicLeapController (272)
-[2020.09.03-23.29.40:631][824]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module MagicLeapAR (270)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module AugmentedReality (269)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (266)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (264)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module FacialAnimation (262)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module DataValidation (260)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (258)
-[2020.09.03-23.29.40:631][824]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
-[2020.09.03-23.29.40:632][824]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
-[2020.09.03-23.29.40:632][824]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (254)
-[2020.09.03-23.29.40:632][824]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2020.09.03-23.29.40:632][824]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2020.09.03-23.29.40:632][824]LogModuleManager: Shutting down and abandoning module ContentBrowser (247)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module TreeMap (245)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module AnimationSharing (242)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module AISupportModule (238)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (232)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2020.09.03-23.29.40:633][824]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2020.09.03-23.29.40:634][824]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module UnrealEd (188)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module MRMesh (186)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module Networking (178)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module Core (176)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (169)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (167)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2020.09.03-23.29.40:636][824]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
-[2020.09.03-23.29.40:669][824]LogDerivedDataCache: Shutdown
-[2020.09.03-23.29.40:669][824]LogModuleManager: Shutting down and abandoning module XGEController (154)
-[2020.09.03-23.29.40:669][824]LogXGEController: Cleaning working directory: C:/Users/Grant/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
-[2020.09.03-23.29.40:670][824]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (121)
-[2020.09.03-23.29.40:671][824]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2020.09.03-23.29.40:671][824]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2020.09.03-23.29.40:671][824]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2020.09.03-23.29.40:671][824]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2020.09.03-23.29.40:671][824]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2020.09.03-23.29.40:671][824]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2020.09.03-23.29.40:671][824]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2020.09.03-23.29.40:672][824]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2020.09.03-23.29.40:672][824]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2020.09.03-23.29.40:678][824]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (101)
-[2020.09.03-23.29.40:678][824]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (99)
-[2020.09.03-23.29.40:678][824]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (97)
-[2020.09.03-23.29.40:678][824]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (95)
-[2020.09.03-23.29.40:678][824]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (93)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (91)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (89)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (87)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (85)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module InputCore (82)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module Settings (80)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (78)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module PhysXCooking (76)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module SteamVR (74)
-[2020.09.03-23.29.40:679][824]LogHMD: Freeing OpenVRDLLHandle.
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module OculusHMD (72)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (70)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (68)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (66)
-[2020.09.03-23.29.40:679][824]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (62)
-[2020.09.03-23.29.40:680][824]LogModuleManager: Shutting down and abandoning module XMPP (57)
-[2020.09.03-23.29.40:680][824]LogModuleManager: Shutting down and abandoning module WebSockets (56)
-[2020.09.03-23.29.40:687][824]LogModuleManager: Shutting down and abandoning module HTTP (53)
-[2020.09.03-23.29.40:687][824]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.09.03-23.29.40:687][824]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3ABC2449-42D1-07CF-060C-C08884DD9931%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=42c06a1b4c791c573eda3d9d2bd07b69%7Cc040ee0109b8485998ecc1f23a00dc6e%7Ccc209624-2e66-4f3c-ba78-a36665f00f3c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2020.09.03-23.29.40:716][824]LogModuleManager: Shutting down and abandoning module SSL (52)
-[2020.09.03-23.29.40:717][824]LogModuleManager: Shutting down and abandoning module WmfMedia (48)
-[2020.09.03-23.29.40:719][824]LogModuleManager: Shutting down and abandoning module Media (47)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module MagicLeap (44)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module DatasmithContent (42)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module DesktopPlatform (40)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.09.03-23.29.40:726][824]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.09.03-23.29.40:727][824]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.09.03-23.29.40:744][824]LogExit: Exiting.
-[2020.09.03-23.29.40:763][824]Log file closed, 09/03/20 16:29:40
+[2020.09.08-18.14.02:180][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.08-18.14.02:180][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.08-18.14.02:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-18.14.02:180][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.08-18.14.02:180][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.09.08-18.14.02:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-18.14.02:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-18.14.02:180][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.08-18.14.02:180][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.08-18.14.02:180][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.08-18.14.02:181][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-18.14.02:181][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-18.14.02:184][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:184][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.08-18.14.02:184][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.08-18.14.02:185][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.08-18.14.02:186][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.08-18.14.02:186][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.08-18.14.02:186][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.08-18.14.02:193][  0]LogHAL: Display: Platform has ~ 8 GB [8546185216 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.09.08-18.14.02:193][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.08-18.14.02:193][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.08-18.14.02:193][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.08-18.14.02:194][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.08-18.14.02:195][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.08-18.14.02:195][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.08-18.14.02:195][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.08-18.14.02:195][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-18.14.02:195][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.08-18.14.02:195][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.08-18.14.02:195][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.08-18.14.02:195][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.08-18.14.02:195][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.08-18.14.02:195][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Config/Windows/Engine.ini]
+[2020.09.08-18.14.02:195][  0]LogInit: Computer: DESKTOP-JMC5V5T
+[2020.09.08-18.14.02:195][  0]LogInit: User: matth
+[2020.09.08-18.14.02:195][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.08-18.14.02:195][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.08-18.14.02:195][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.09.08-18.14.02:195][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.08-18.14.02:195][  0]LogMemory: Process Physical Memory: 96.56 MB used, 96.57 MB peak
+[2020.09.08-18.14.02:195][  0]LogMemory: Process Virtual Memory: 83.87 MB used, 83.87 MB peak
+[2020.09.08-18.14.02:195][  0]LogMemory: Physical Memory: 5795.73 MB used,  2354.55 MB free, 8150.28 MB total
+[2020.09.08-18.14.02:195][  0]LogMemory: Virtual Memory: 4610.74 MB used,  134213120.00 MB free, 134217728.00 MB total
+[2020.09.08-18.14.02:215][  0]LogInit: Using OS detected language (en-US).
+[2020.09.08-18.14.02:215][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.08-18.14.02:216][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.08-18.14.02:361][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.08-18.14.02:393][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.08-18.14.02:393][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.08-18.14.02:544][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.08-18.14.02:544][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.08-18.14.02:600][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.09.08-18.14.02:600][  0]LogD3D11RHI:       6052/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.08-18.14.02:602][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.08-18.14.02:602][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.08-18.14.02:602][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.08-18.14.02:609][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.08-18.14.02:610][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.08-18.14.02:610][  0]LogWindows: EnumDisplayDevices:
+[2020.09.08-18.14.02:610][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.09.08-18.14.02:610][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.08-18.14.02:610][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.08-18.14.02:611][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.08-18.14.02:611][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.08-18.14.02:611][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.09.08-18.14.02:611][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.09.08-18.14.02:611][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.09.08-18.14.02:611][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.09.08-18.14.02:647][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.08-18.14.02:650][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.08-18.14.02:650][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.08-18.14.02:650][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.08-18.14.02:658][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.08-18.14.03:031][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.09.08-18.14.03:043][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.09.08-18.14.03:055][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.09.08-18.14.03:068][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.09.08-18.14.03:081][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.09.08-18.14.03:093][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.09.08-18.14.03:105][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.08-18.14.03:117][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.09.08-18.14.03:123][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.09.08-18.14.03:190][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.09.08-18.14.03:191][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.09.08-18.14.03:237][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.09.08-18.14.03:237][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.09.08-18.14.03:258][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.09.08-18.14.03:258][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.09.08-18.14.03:269][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.09.08-18.14.03:280][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.08-18.14.03:291][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.09.08-18.14.03:302][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.09.08-18.14.03:340][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.09.08-18.14.03:340][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.09.08-18.14.03:340][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.08-18.14.03:348][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.08-18.14.03:393][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Intermediate/Shaders/WorkingDirectory/16320/).
+[2020.09.08-18.14.03:393][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/matth/AppData/Local/Temp/UnrealShaderWorkingDir/4A93F0FC432238616BB2FEAF66088CE1/'.
+[2020.09.08-18.14.03:395][  0]LogXGEController: Cleaning working directory: C:/Users/matth/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.08-18.14.03:395][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.08-18.14.03:395][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.08-18.14.03:395][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.08-18.14.03:871][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.08-18.14.03:913][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/matth/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.09.08-18.14.03:914][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/matth/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.09.08-18.14.03:914][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.08-18.14.03:914][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.08-18.14.03:914][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.08-18.14.03:914][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.08-18.14.03:924][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.08-18.14.03:924][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.08-18.14.03:924][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.08-18.14.03:936][  0]LogDerivedDataCache: Using Local data cache path C:/Users/matth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.08-18.14.03:936][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.08-18.14.03:936][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.08-18.14.03:954][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.09.08-18.14.03:955][  0]LogSlate: Using FreeType 2.6.0
+[2020.09.08-18.14.03:956][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.08-18.14.04:037][  0]LogAssetRegistry: FAssetRegistry took 0.0317 seconds to start up
+[2020.09.08-18.14.04:309][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.08-18.14.04:420][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.08-18.14.04:420][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.08-18.14.04:420][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.08-18.14.04:420][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.08-18.14.04:420][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.08-18.14.04:437][  0]LogNetVersion: BullCowGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2070390679)
+[2020.09.08-18.14.04:815][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.026297 seconds
+[2020.09.08-18.14.04:822][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.09.08-18.14.04:822][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.09.08-18.14.04:822][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.08-18.14.05:603][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.08-18.14.05:616][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.08-18.14.05:719][  0]SourceControl: Source control is disabled
+[2020.09.08-18.14.05:719][  0]SourceControl: Source control is disabled
+[2020.09.08-18.14.05:720][  0]SourceControl: Source control is disabled
+[2020.09.08-18.14.05:721][  0]SourceControl: Source control is disabled
+[2020.09.08-18.14.05:793][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.08-18.14.05:886][  0]LogOcInput: OculusInput pre-init called
+[2020.09.08-18.14.06:535][  0]LogEngine: Initializing Engine...
+[2020.09.08-18.14.06:535][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.08-18.14.06:536][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.08-18.14.06:717][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.08-18.14.06:728][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.08-18.14.06:801][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.08-18.14.06:830][  0]LogInit: FAudioDevice initialized.
+[2020.09.08-18.14.06:830][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.08-18.14.06:900][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/matth/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.09.08-18.14.06:905][  0]LogInit: Texture streaming: Enabled
+[2020.09.08-18.14.06:923][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.08-18.14.06:940][  0]LogInit: Transaction tracking system initialized
+[2020.09.08-18.14.06:961][  0]BlueprintLog: New page: Editor Load
+[2020.09.08-18.14.07:033][  0]LogConfig: Warning: Failed to saved backup for config[../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Intermediate/Config/CoalescedSourceConfigs/LocalizationServiceSettings.ini]
+[2020.09.08-18.14.07:033][  0]LocalizationService: Localization service is disabled
+[2020.09.08-18.14.07:268][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.08-18.14.07:268][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.08-18.14.07:421][  0]LogFileCache: Scanning file cache for directory 'D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Content/' took 0.02s
+[2020.09.08-18.14.07:421][  0]SourceControl: Source control is disabled
+[2020.09.08-18.14.07:421][  0]Cmd: MAP LOAD FILE="../../../../githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.08-18.14.07:421][  0]LightingResults: New page: Lighting Build
+[2020.09.08-18.14.07:423][  0]MapCheck: New page: Map Check
+[2020.09.08-18.14.07:424][  0]LightingResults: New page: Lighting Build
+[2020.09.08-18.14.07:444][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.09.08-18.14.07:909][  0]LogAIModule: Creating AISystem for world Level1
+[2020.09.08-18.14.07:942][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.08-18.14.07:964][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.09.08-18.14.07:964][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.08-18.14.07:964][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.087ms to complete.
+[2020.09.08-18.14.07:964][  0]LogFileHelpers: Loading map 'Level1' took 0.544
+[2020.09.08-18.14.08:058][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-18.14.08:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-18.14.08:072][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-18.14.08:078][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-18.14.08:084][  0]LogCollectionManager: Loaded 0 collections in 0.001426 seconds
+[2020.09.08-18.14.08:098][  0]LogFileCache: Scanning file cache for directory 'D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Saved/Collections/' took 0.01s
+[2020.09.08-18.14.08:099][  0]LogFileCache: Scanning file cache for directory 'D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Developers/matth/Collections/' took 0.00s
+[2020.09.08-18.14.08:099][  0]LogFileCache: Scanning file cache for directory 'D:/githubRepo/cows and bulls/BullCowGame-starter-kit/Content/Collections/' took 0.00s
+[2020.09.08-18.14.08:099][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.09.08-18.14.08:106][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2737 classes and 662 folders.
+[2020.09.08-18.14.08:112][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.08-18.14.08:113][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:114][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:114][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:115][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:115][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:116][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:116][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:116][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:117][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:117][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:118][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:118][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:118][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:119][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:119][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:120][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:120][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:121][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:121][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:122][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:122][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:122][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:123][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:123][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:124][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:124][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.08-18.14.08:165][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.08-18.14.08:170][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.09.08-18.14.08:183][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.08-18.14.08:184][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.08-18.14.08:188][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.08-18.14.08:242][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2020.09.08-18.14.08:299][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.08-18.14.08:389][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.08-18.14.08:389][  0]LogLoad: (Engine Initialization) Total time: 7.96 seconds
+[2020.09.08-18.14.08:389][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.08-18.14.08:467][  0]LogAssetRegistry: Asset discovery search completed in 4.4527 seconds
+[2020.09.08-18.14.08:469][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.09.08-18.14.08:469][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2020.09.08-18.14.08:470][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.08-18.14.08:545][  3]LogStaticMesh: Allocated 32x8x11 distance field atlas = 0.0Mb, with 4 objects containing 0.0Mb backing data
+[2020.09.08-18.14.19:111][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.08-18.14.19:293][592]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.08-18.14.19:301][592]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CowCloud.CowCloud
+[2020.09.08-18.14.19:510][592]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.09.08-18.14.20:193][592]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.08-18.14.21:141][650]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.08-18.14.22:315][728]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-18.14.22:318][728]LogSlate: Window 'CowCloud' being destroyed
+[2020.09.08-18.14.29:527][135]LogSlate: FSceneViewport::OnFocusLost() reason 0

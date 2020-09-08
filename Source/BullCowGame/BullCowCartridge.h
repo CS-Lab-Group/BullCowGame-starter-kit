@@ -16,17 +16,24 @@ struct FBullCowCount
 	int32 Cows  = 0;
 };
 
+// DECLARE_DYNAMIC_MULTICAST_DELEGATE(FGameEnded);
+
+
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
-class BULLCOWGAME_API UBullCowCartridge : public UCartridge
+class BULLCOWGAME_API UBullCowCartridge : public UCartridge	
 {
 	GENERATED_BODY()
 
 	public:
+
+	// UPROPERTY(BlueprintAssignable, Category = "EventDispatchers")
+	// FGameEnded GameEnd;
+	
 	virtual void BeginPlay() override;
 	virtual void OnInput(const FString& Input) override;
 	void SetupGame();
 	void EndGame();
-	void ProcessGuess(const FString& Guess);
+	void ProcessGuess(const FString& Guess); 
 	bool IsIsogram(const FString& Word) const;
 	TArray<FString> GetValidWords(const TArray<FString>& WordList) const;
 	FBullCowCount GetBullCows(const FString& Guess) const;
